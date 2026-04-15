@@ -12,12 +12,12 @@ export const Banner = () => {
         <Row className="align-items-center">
           {/* Left Column for Text */}
           <Col xs={12} md={6} xl={7}>
-            <span className="tagline">Welcome to my  ooooooooPortfolio</span>
+            <span className="tagline">Welcome to my Portfolio</span>
             <h1>
               Hi! I'm Rawan Ayman
-              <span className="txt"> Web newwwwwDeveloper</span>
+              <span className="txt"> Web Developer</span>
             </h1>
-            <p>Web App for Third Year College students</p>
+            <p>Web App for Third Year College students </p>
             <button>
               Let's Connect <ArrowRightCircle size={25} />
             </button>
