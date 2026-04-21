@@ -15,7 +15,7 @@ export const Banner = () => {
             <span className="tagline">Welcome to my Portfolio</span>
             <h1>
               Hi! I'm Rawan Ayman
-              <span className="txt"> Web Developer</span>
+              <span className="txt"> Web Developer </span>
             </h1>
             <p>Web App for Third Year College students </p>
             <button>

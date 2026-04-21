@@ -40,7 +40,7 @@ function NavBar() {
 
             <span className="navbar-text">
               <div className="social-icon">
-                <a href="https://linkedin.com" target="_blank" rel="noreferrer">
+                <a href="https://www.linkedin.com/in/ronyayman" target="_blank" rel="noreferrer">
                   <Linkedin size={16} />
                 </a>
                 <a href="https://facebook.com" target="_blank" rel="noreferrer">
