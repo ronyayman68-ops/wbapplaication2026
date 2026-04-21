@@ -17,7 +17,7 @@ export const Banner = () => {
               Hi! I'm Rawan Ayman
               <span className="txt"> Web Developer </span>
             </h1>
-            <p>Web App for Third Year College students </p>
+            <p>Web App for Third Year College students :) </p>
             <button>
               Let's Connect <ArrowRightCircle size={25} />
             </button>
