@@ -1,7 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { ArrowRightCircle } from 'react-bootstrap-icons';
-// Import the image from your assets folder
 import spaceManImg from "../../assests/space man.png"; 
 import './banner.css';
 
@@ -10,7 +9,6 @@ export const Banner = () => {
     <section className="banner" id="home">
       <Container>
         <Row className="align-items-center">
-          {/* Left Column for Text */}
           <Col xs={12} md={6} xl={7}>
             <span className="tagline">Welcome to my Portfolio</span>
             <h1>
@@ -23,7 +21,7 @@ export const Banner = () => {
             </button>
           </Col>
 
-          {/* Right Column for the Image */}
+
           <Col xs={12} md={6} xl={5}>
             <div className="banner-img">
               <img src={spaceManImg} alt="Header Img"/>
