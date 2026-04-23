@@ -1,0 +1,81 @@
+.footer {
+  padding: 100px 0 50px 0;
+  background-color: #0f172a;
+  color: #fff;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.logo-text {
+  font-weight: 600;
+  letter-spacing: 0.8px;
+  font-size: 30px;
+  color: #fff;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.footer-social-icons {
+  text-align: right;
+}
+
+.social-icon {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+}
+
+.social-icon a {
+  width: 42px;
+  height: 42px;
+  background: rgba(255, 255, 255, 0.1);
+  display: inline-flex;
+  border-radius: 50%;
+  margin-left: 10px;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  transition: 0.3s ease-in-out;
+}
+
+.social-icon a:hover {
+  background: #fff;
+}
+
+.social-icon a img {
+  width: 40%;
+  filter: brightness(0) invert(1); /* Makes icons white */
+}
+
+.social-icon a:hover img {
+  filter: brightness(1) invert(0); /* Makes icons dark on hover */
+}
+
+.footer-social-icons p {
+  font-weight: 400;
+  font-size: 14px;
+  color: #b8b8b8;
+  letter-spacing: 0.5px;
+  margin: 0;
+}
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+  .footer-content {
+    flex-direction: column;
+    text-align: center;
+  }
+  .footer-social-icons {
+    text-align: center;
+    margin-top: 30px;
+  }
+  .social-icon {
+    justify-content: center;
+  }
+}
