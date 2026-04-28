@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Row, Col } from "react-bootstrap";
-import { Linkedin, Facebook, Instagram } from "react-bootstrap-icons";
+import { Linkedin, Github, Instagram } from "react-bootstrap-icons";
 import './footer.css';
 
 export const Footer = () => {
@@ -9,20 +9,21 @@ export const Footer = () => {
       <Container>
         <Row className="align-items-center">
           <Col xs={12} md={6} className="text-center text-md-start">
-            <h1 className="footer-logo">LOGO</h1>
+            <h1 className="footer-logo">LOGO<span>.</span></h1>
           </Col>
           <Col xs={12} md={6} className="text-center text-md-end">
             <div className="social-icon">
               <a href="https://www.linkedin.com/in/ronyayman" target="_blank" rel="noreferrer">
-                <Linkedin size={18} />
+                <Linkedin size={20} />
               </a>
-              <a href="https://facebook.com" target="_blank" rel="noreferrer">
-                <Facebook size={18} />
+              <a href="https://github.com/ronyayman68-ops/wbapplaication2026.git" target="_blank" rel="noreferrer">
+                <Github size={20} />
               </a>
               <a href="https://instagram.com" target="_blank" rel="noreferrer">
-                <Instagram size={18} />
+                <Instagram size={20} />
               </a>
             </div>
+            <p className="copyright">© 2026 Rawan Ayman Saber. All Rights Reserved</p>
           </Col>
         </Row>
       </Container>

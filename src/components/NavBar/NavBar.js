@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
-import { Linkedin, Facebook, Instagram } from "react-bootstrap-icons";
+import { Linkedin, Github, Instagram } from "react-bootstrap-icons";
 import "./style.css";
 
 function NavBar() {
@@ -43,8 +43,8 @@ function NavBar() {
                 <a href="https://www.linkedin.com/in/ronyayman" target="_blank" rel="noreferrer">
                   <Linkedin size={16} />
                 </a>
-                <a href="https://facebook.com" target="_blank" rel="noreferrer">
-                  <Facebook size={16} />
+                <a href="https://github.com/ronyayman68-ops/wbapplaication2026.git" target="_blank" rel="noreferrer">
+                  <Github size={16} />
                 </a>
                 <a href="https://instagram.com" target="_blank" rel="noreferrer">
                   <Instagram size={16} />
