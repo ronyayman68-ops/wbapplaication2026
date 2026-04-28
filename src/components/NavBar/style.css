@@ -1,13 +1,11 @@
-/* --- Global --- */
 body {
   margin: 0;
   padding: 0;
   background-color: #0f172a;
   color: #ffffff;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
-/* --- Navbar --- */
 .custom-navbar {
   padding: 15px 0;
   background-color: #0f172a;
@@ -31,7 +29,6 @@ body {
   opacity: 1;
 }
 
-/* Icons & Navbar Button Wrapper */
 span.navbar-text {
   display: flex;
   align-items: center;
@@ -79,7 +76,6 @@ span.navbar-text {
   transform: scale(1.05);
 }
 
-/* --- Banner --- */
 .banner {
   padding: 200px 0 100px 0;
   min-height: 100vh;
@@ -87,12 +83,15 @@ span.navbar-text {
   align-items: center;
 }
 
-/* Gradient Tagline */
 .banner .tagline {
   font-weight: 600;
   letter-spacing: 0.8px;
   padding: 8px 16px;
-  background: linear-gradient(90deg, rgba(170, 54, 124, 0.8) 0%, rgba(74, 47, 189, 0.8) 100%);
+  background: linear-gradient(
+    90deg,
+    rgba(170, 54, 124, 0.8) 0%,
+    rgba(74, 47, 189, 0.8) 100%
+  );
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 4px;
   font-size: 18px;
@@ -117,7 +116,6 @@ span.navbar-text {
   margin: 20px 0 30px 0;
   width: 80%;
 }
-
 
 .banner-btn {
   background: linear-gradient(90deg, #aa367c 0%, #4a2fbd 100%);

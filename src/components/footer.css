@@ -51,12 +51,11 @@
   margin-top: 10px;
 }
 
-
 @media (max-width: 768px) {
   .footer {
     padding: 40px 0;
   }
-  
+
   .footer-logo {
     margin-bottom: 20px;
   }
