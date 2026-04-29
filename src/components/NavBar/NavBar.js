@@ -6,7 +6,6 @@ import "./style.css";
 function NavBar() {
   const [scrolled, setScrolled] = useState(false);
 
-
   useEffect(() => {
     const onScroll = () => {
       if (window.scrollY > 50) {
@@ -21,7 +20,12 @@ function NavBar() {
   }, []);
 
   return (
-    <Navbar expand="lg" className={scrolled ? "scrolled custom-navbar" : "custom-navbar"} fixed="top">
+    <Navbar 
+      expand="md" 
+      variant="dark" 
+      className={scrolled ? "scrolled custom-navbar" : "custom-navbar"} 
+      fixed="top"
+    >
       <Container>
         <Navbar.Brand href="#home" className="logo-text">
           LOGO
@@ -32,13 +36,13 @@ function NavBar() {
         </Navbar.Toggle>
 
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="ms-auto align-items-center">
-            
+          {/* d-flex and align-items-center align the links horizontally with the icons */}
+          <Nav className="ms-auto d-flex align-items-center">
             <Nav.Link href="#home" className="navbar-link">Home</Nav.Link>
             <Nav.Link href="#skills" className="navbar-link">Skills</Nav.Link>
             <Nav.Link href="#projects" className="navbar-link">Projects</Nav.Link>
 
-            <span className="navbar-text">
+            <span className="navbar-text d-flex align-items-center">
               <div className="social-icon">
                 <a href="https://www.linkedin.com/in/ronyayman" target="_blank" rel="noreferrer">
                   <Linkedin size={16} />
@@ -55,7 +59,6 @@ function NavBar() {
                 <span>Let's Connect</span>
               </button>
             </span>
-
           </Nav>
         </Navbar.Collapse>
       </Container>
