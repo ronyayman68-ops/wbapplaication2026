@@ -26,15 +26,13 @@ export const Contact = () => {
 
   const handlePhoneChange = (e) => {
     const value = e.target.value;
-
-    if (value.includes(".")) {
-      setError("Numbers only, please!");
-    } else {
+    if (/^\d*$/.test(value)) {
       setError("");
-    }
-
-    if (value.length <= 12) {
-      onFormUpdate("phone", value);
+      if (value.length <= 12) {
+        onFormUpdate("phone", value);
+      }
+    } else {
+      setError("Numbers only, please!");
     }
   };
 
@@ -57,7 +55,7 @@ export const Contact = () => {
     emailjs.send(serviceId, templateId, templateParams, publicKey).then(
       (result) => {
         setButtonText("Send");
-        setIsVisible(false);
+        setIsVisible(false); //
         console.log("Notification sent to phone!", result.text);
       },
       (err) => {

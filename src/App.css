@@ -43,3 +43,7 @@ html, body {
 body, html {
   overflow-x: hidden; 
 }
+
+html {
+  scroll-behavior: smooth;
+}
