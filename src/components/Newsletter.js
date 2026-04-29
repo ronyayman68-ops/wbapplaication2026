@@ -23,7 +23,7 @@ export const Newsletter = () => {
   };
 
   const handleSubmit = (e) => {
-    e.preventDefault(); // not refreshing the page when the form is submitted
+    e.preventDefault();
     if (!validateEmail(email)) {
       setStatus("Invalid email. Please include an @ and a domain.");
       return;
@@ -32,7 +32,7 @@ export const Newsletter = () => {
     setButtonText("Sending...");
 
     const serviceId = "service_zyx103p";
-    const templateId = "template_z3ph3v9"; //template_z3ph3v9 ,template_1wn0dic
+    const templateId = "template_1wn0dic";
     const publicKey = "igsqtdXTlZvtmrtOs";
 
     const templateParams = {
@@ -51,7 +51,7 @@ export const Newsletter = () => {
           console.log("SUCCESS!");
         },
         (error) => {
-          setButtonText("Submit"); // Reset button text on error
+          setButtonText("Submit");
           setStatus("Something went wrong. Please try again.");
           console.log("FAILED...", error);
         },

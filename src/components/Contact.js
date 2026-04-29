@@ -41,7 +41,7 @@ export const Contact = () => {
     setButtonText("Sending...");
 
     const serviceId = "service_zyx103p";
-    const templateId = "template_1wn0dic";
+    const templateId = "template_z3ph3v9";
     const publicKey = "igsqtdXTlZvtmrtOs";
 
     const templateParams = {
@@ -55,13 +55,13 @@ export const Contact = () => {
     emailjs.send(serviceId, templateId, templateParams, publicKey).then(
       (result) => {
         setButtonText("Send");
-        setIsVisible(false); //
+        setIsVisible(false); 
         console.log("Notification sent to phone!", result.text);
       },
-      (err) => {
+      (error) => {
         setButtonText("Send");
         alert("Failed to send. Please try again.");
-        console.log("FAILED...", err);
+        console.log("FAILED...", error);
       },
     );
   };
