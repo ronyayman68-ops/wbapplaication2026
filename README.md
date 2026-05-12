@@ -1,70 +1,51 @@
-# Getting Started with Create React App
+🚀 Professional Portfolio | Full-Stack & Big Data
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, responsive web application built to showcase technical expertise in the MERN stack and Big Data engineering. This project serves as a digital hub for my professional services and academic milestones as a student at Future University in Egypt (FUE).
+🛠️ Technical Stack
 
-## Available Scripts
+    Frontend: React.js with Bootstrap and custom CSS for a clean, professional UI.
 
-In the project directory, you can run:
+    Backend: Node.js and ASP.NET Core.
 
-### `npm start`
+✨ Key Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+    Modern Space-Themed UI: A high-impact landing page with a personalized hero section.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+    AI Integration: Includes projects like Genre Sniper Elite, an AI-powered text classification app.
 
-### `npm test`
+    Academic Excellence: Features complex logic for Discrete-Event Simulations and Iterative Deepening Search.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+    Freelance Ready: Structured to highlight professional services available on Nafezly and Khamsat.
 
-### `npm run build`
+🚀 Deployment
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+This project is hosted on GitHub. To view the live site, visit:
+[(https://ronyayman68-ops.github.io/wbapplaication2026/)]
+Local Development
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+To run this project locally using Create React App:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    Clone the repository:
+    Bash
 
-### `npm run eject`
+    git clone https://github.com/ronyayman68-ops/wbapplaication2026.git
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+    Install dependencies:
+    Bash
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+    npm install
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+    Start the development server:
+    Bash
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+    npm start
 
-## Learn More
+👤 About Me
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Rawan Ayman Saber
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+    Education: Faculty of Computers and Information Technology, Future University in Egypt (FUE).
 
-### Code Splitting
+    Specialization: Full-Stack Developer & Software Engineer.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+    Collaboration: Experienced in group projects using Git and GitHub for version control.
